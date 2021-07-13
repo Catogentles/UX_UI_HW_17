@@ -1,0 +1,132 @@
+body {
+    background-color: #004643;
+    font-family:Times, 'Times New Roman', serif;
+    font-size: 30px;
+  }
+  
+  p {
+    color: #faf4d3;
+    display: inline-block;
+    font-family: Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight:normal;
+  }
+  h1 {
+    color: #d1ac00;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  h2 {
+    color: #d1ac00;
+    text-align: center;
+    letter-spacing: 6px;
+  }
+
+  h3 {
+      color: black;
+      text-align: center;
+      letter-spacing: 6px;
+  } 
+
+  ul {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    word-spacing: 80px;
+  }
+
+  h4 {
+    color: #f6be9a;
+  }
+img {
+   height: 150px;
+   width: 150px;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 10px;
+   align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  border: 0;
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+footer {
+  background: #021618;
+  display: inline-flexbox;
+  height: 300px;
+  width: auto;
+  
+}
+.buttonstyled {
+  border: 0;
+  background-color: #d1ac00;
+  line-height: 2.5;
+  display: block;
+  align-content: center;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, .2),
+                    rgba(0, 0, 0, .2) 30%,
+                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.buttonstyled {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+
+}
+
+
+.buttonstyled:hover {
+  background-color: #001618;
+  color:#faf4d3;
+}
+
+.buttonstyled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.footerlogo {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-inline-start: 20px;
+
+} 
+.work {
+  display: -moz-inline-box;
+  height: 1400px;
+  border: 10px solid #f6be9a;
+  padding: 8px 12px;
+}
+.content {
+  display: inline-block;
+  height: 400px;
+  border: 10px solid #f6be9a;
+  padding: 8px 12px;
+}
