@@ -61,7 +61,17 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 100%;
+  float: left;
+}
+
+.headshot img {
+  padding-left: -50px;
+}
+
+.aboutme {
+
+  
 }
 footer {
   background: #021618;
@@ -125,8 +135,12 @@ footer {
   padding: 8px 12px;
 }
 .content {
-  display: inline-block;
+  display: flex;
   height: 400px;
   border: 10px solid #f6be9a;
   padding: 8px 12px;
+}
+
+li {
+  list-style-type: none;
 }
